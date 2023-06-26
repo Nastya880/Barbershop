@@ -1,0 +1,127 @@
+@font-face {
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url('fonts/pt-sans-regular.woff2') format("woff2");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "PT Sans";
+	font-style: normal;
+	font-weight: 700;
+	src: url('fonts/pt-sans-bold.woff2') format("woff2");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "PT Sans Narrow";
+	font-style: normal;
+	font-weight: 700;
+	src: url('fonts/pt-sans-narrow-regular.woff2') format("woff2");
+	font-display: swap;
+}
+
+.title {
+	font-family: "PT Sans Narrow", sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 35px;
+	text-transform: uppercase;
+}
+
+.button {
+	font-family: "PT Sans";
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 16px;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+body {
+	font-family: "PT Sans", sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	color: #242424;
+	background: #F3F3F3;
+}
+
+/* header */
+.page-header {
+	color: #FFFFFF;
+	background-color: #000000;
+}
+
+.navigation-link {
+	font-family: "PT Sans Narrow", sans-serif;
+	font-weight: 700;
+	line-height: 22px;
+	text-align: center;
+	text-transform: uppercase;
+/* наследуемый цвет от родителя */
+	color: inherit;
+	text-decoration: none;
+}
+
+.cart-price {
+	font-size: 16px;
+	line-height: 24px;
+	color: #AF7842;
+}
+
+.cart-delete {
+	background-image: url('../images/icons/trash.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.index-main {
+	color: #FFFFFF;
+	background-color: #000000;
+	background-image: url('../images/interior-background.jpg');
+	background-repeat: no-repeat;
+}
+
+.main-inner {
+	background-image: url('../images/noisy-texture.png');
+	background-repeat: repeat;
+}
+
+/* Преимущества */
+.advantages-list {
+	list-style-type: none;
+	text-align: center;
+}
+
+.index-columns {
+	background-color: #F3F3F3;
+	background-image: url('../images/noisy-texture.png');
+	background-repeat: repeat;
+	color: #242424;
+}
+
+/* Услуги */
+.services {
+	text-transform: uppercase;
+}
+
+.services-list {
+	font-family: "PT Sans Narrow", sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 28px;
+}
+
+.services-price {
+	color: #AF7842;
+}
+
+
+.button-all {
+	background-image: url('../images/icons/arrow-right.svg');
+	background-repeat: no-repeat;
+}
