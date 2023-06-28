@@ -4,3 +4,5 @@
 
 Сайт не адаптирован. 
 Валиден по [w3c](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fnastya880.github.io%2FBarbershop%2F)
+
+Фотографии оптимизированы с помощью [Squoosh](https://squoosh.app) и [SVGOMG](https://jakearchibald.github.io/svgomg/)
